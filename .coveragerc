@@ -1,0 +1,12 @@
+[run]
+branch = true
+source =
+  src/
+omit =
+  *__about__*
+
+[report]
+exclude_also =
+  no cov
+  if __name__ == .__main__.:
+  if TYPE_CHECKING:
